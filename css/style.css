@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section#score {
+    width: 100%;
+}
+
+#board {
+    box-sizing: border-box;
+    width: 644px;
+    height: 644px;
+    margin: 1em auto;
+    border: 2px solid rgb(145,7,255);
+}
+
+#board  > div {    
+    border: 2px solid rgb(145,7,255);
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+section#score div {
+    font-family: 'Pangolin', cursive;
+    color: #fff;
+    width: 10em;
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(188,117,255);
+    border: 1px solid rgba(201,38,232,.5);
+    border-radius: 40px;
+    box-shadow: 3px 3px 5px 3px rgba(232,12,221,.5);
+    margin: 1em auto;
+    font-weight: 700;
+}
+
+.furry {
+    background-image: url('../images/cookie_monster.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coin {
+    background-image: url('../images/cookie.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
