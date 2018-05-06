@@ -5,6 +5,8 @@ borders, which is ending the game. The player is controlling Cookie Monster usin
 arrow keys.
 Game has been created based on JavaScript constructors.
 
+[Do you want to play?](https://wlodekd.github.io/ "Do you want to play?")
+
 ------------
 
 Technologies which I used:
